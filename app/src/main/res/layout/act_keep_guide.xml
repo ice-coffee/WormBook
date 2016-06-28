@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/keep_guide_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        style="@style/ActionBarLayout" >
+
+        <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+            <TextView
+                android:id="@+id/chapter_list_back"
+                style="@style/ActionBarIconText"
+                android:drawableLeft="@drawable/icon_read_menu_back"
+                android:drawablePadding="15dp"
+                android:text="养肥区介绍" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/actionbar_layout"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_keep_guide" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:paddingTop="20dp" >
+
+            <Button
+                android:id="@+id/keep_guide_begin"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/selector_btn_red"
+                android:gravity="center"
+                android:text="我明白了"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- SEEKBAR背景底部的颜色 -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="10dip" />
+
+            <gradient
+                android:angle="270"
+                android:centerColor="#6a6a6a"
+                android:centerY="0.45"
+                android:endColor="#6a6a6a"
+                android:startColor="#6a6a6a" />
+
+            <stroke
+                android:dashGap="1dp"
+                android:dashWidth="1dp"
+                android:width="17dp"
+                android:color="#00000000" />
+        </shape>
+    </item>
+    <!-- 拖动后的颜色 -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="10dip" />
+
+                <gradient
+                    android:angle="270"
+                    android:centerColor="#db382b"
+                    android:centerY="0.45"
+                    android:endColor="#db382b"
+                    android:startColor="#db382b" />
+
+                <stroke
+                    android:dashGap="1dp"
+                    android:dashWidth="1dp"
+                    android:width="17dp"
+                    android:color="#00000000" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_ef_black"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        style="@style/ActionBarLayout" >
+
+        <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+            <TextView
+                android:id="@+id/chapter_list_back"
+                style="@style/ActionBarIconText"
+                android:drawableLeft="@drawable/icon_read_menu_back"
+                android:drawablePadding="15dp"
+                android:text="章节" />
+
+            <ImageButton
+                android:id="@+id/chapter_list_baidu_bar"
+                style="@style/ActionBarIcon"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_baidu_bar" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/chapter_list_buttom"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/chapter_list_top_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_book_shelf_item_ef"
+                android:gravity="center"
+                android:text="到顶部"
+                android:textColor="@color/book_default_red"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/chapter_list_buttom_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_book_shelf_item_ef"
+                android:gravity="center"
+                android:text="到底部"
+                android:textColor="@color/text_ef_light_gray"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentTop="true"
+            android:background="@color/color_ef_divider" />
+
+        <ImageView
+            android:layout_width="1px"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@color/color_ef_divider" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/chapter_list_buttom"
+        android:layout_below="@id/actionbar_layout"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/color_ef_divider"
+        android:dividerHeight="1px"
+        android:fastScrollEnabled="true"
+        android:listSelector="#00000000" />
+
+    <com.jie.book.work.view.EmptyPage
+        android:id="@+id/empty_page"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/chapter_list_buttom"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_ef_shae" />
+
+</RelativeLayout>

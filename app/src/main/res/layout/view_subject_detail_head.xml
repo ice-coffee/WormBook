@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp" >
+
+    <RelativeLayout
+        android:id="@+id/item_subject_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/item_subject_image"
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_default_subject" />
+
+        <TextView
+            android:id="@+id/item_subject_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/item_subject_image"
+            android:background="@drawable/bg_subject_time"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:text="05-28"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_subject_image"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/item_subject_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/text_black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/item_subject_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/item_subject_name"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/item_subject_new"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:textColor="@color/text_gray"
+                android:textSize="14dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

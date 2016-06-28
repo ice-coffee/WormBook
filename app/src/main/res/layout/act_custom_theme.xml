@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/book_shelf_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        style="@style/ActionBarLayout" >
+
+        <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+            <TextView
+                android:id="@+id/custom_theme_back"
+                style="@style/ActionBarIconText"
+                android:drawableLeft="@drawable/icon_read_menu_back"
+                android:drawablePadding="15dp"
+                android:text="自定义" />
+
+            <TextView
+                android:id="@+id/custom_theme_sure"
+                style="@style/ActionBarIconText"
+                android:layout_alignParentRight="true"
+                android:text="确定" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/custom_theme_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="阅读背景"
+            android:textColor="@color/text_black"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/custom_theme_bg_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@color/blue" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentTop="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/custom_theme_text"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="字体颜色"
+            android:textColor="@color/text_black"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/custom_theme_text_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@color/yellow" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/book_shelf_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        style="@style/ActionBarLayout" >
+
+        <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+            <TextView
+                android:id="@+id/book_search_back"
+                style="@style/ActionBarIconText"
+                android:drawableLeft="@drawable/icon_read_menu_back"
+                android:drawablePadding="15dp"
+                android:text="更多榜单" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="130dp"
+                android:src="@drawable/icon_rank_boy" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rank_more_m1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <TextView
+            android:id="@+id/rank_more_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/icon_rank_qd"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="起点月票榜"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rank_more_m2"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <TextView
+            android:id="@+id/rank_more_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/icon_rank_bd"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="百度热搜榜"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rank_more_m3"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <TextView
+            android:id="@+id/rank_more_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/icon_rank_zh"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="纵横月票榜"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rank_more_m4"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <TextView
+            android:id="@+id/rank_more_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/icon_rank_zl"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="逐浪畅销榜"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rank_more_m5"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <TextView
+            android:id="@+id/rank_more_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/icon_rank_sqk"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="17K风云榜"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rank_more_m6"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <TextView
+            android:id="@+id/rank_more_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/icon_rank_wj"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="经典完结榜"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rank_more_m7"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <TextView
+            android:id="@+id/rank_more_text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/icon_rank_lz"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="最新连载榜"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+</LinearLayout>

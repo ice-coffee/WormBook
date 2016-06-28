@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/book_shelf_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        style="@style/ActionBarLayout" >
+
+        <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+            <TextView
+                android:id="@+id/book_search_back"
+                style="@style/ActionBarIconText"
+                android:drawableLeft="@drawable/icon_read_menu_back"
+                android:drawablePadding="15dp"
+                android:text="百度贴吧" />
+
+            <ImageButton
+                android:id="@+id/book_shlef_main"
+                style="@style/ActionBarIcon"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_read_menu_store"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/ac_search_strategy_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/actionbar_layout"
+        android:max="100" />
+
+    <RelativeLayout
+        android:id="@+id/ac_search_strategy_foot"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_web_foot"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <Button
+            android:id="@+id/ac_search_strategy_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_btn_web_back"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/ac_search_strategy_go_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/ac_search_strategy_back_btn"
+            android:background="@drawable/selector_btn_web_go"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/ac_search_strategy_refresh_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/selector_btn_web_refresh" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/ac_search_strategy_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/ac_search_strategy_foot"
+        android:layout_below="@id/ac_search_strategy_progress" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_ef_shae" />
+
+</RelativeLayout>

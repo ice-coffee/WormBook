@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo" />
+
+    <style name="Widget.Holo.ListView" parent="@android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/list_selector_background</item>
+    </style>
+
+    <style name="holo_fast_Scroll" parent="android:Theme.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:listViewStyle">@style/Widget.Holo.ListView</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/list_selector_holo_dark</item>
+        <item name="android:selectableItemBackground">@drawable/item_background_holo_dark</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/activated_background_holo_dark</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+        <item name="android:fastScrollPreviewBackgroundLeft">@drawable/fastscroll_label_left_holo_dark</item>
+        <item name="android:fastScrollPreviewBackgroundRight">@drawable/fastscroll_label_right_holo_dark</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/fastscroll_track_holo_dark</item>
+        <item name="android:fastScrollOverlayPosition">atThumb</item>
+        <item name="android:scrollbarFadeDuration">250</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">300</item>
+        <item name="android:scrollbarSize">10dip</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_handle_holo_dark</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_handle_holo_dark</item>
+        <item name="android:scrollbarTrackHorizontal">@null</item>
+        <item name="android:scrollbarTrackVertical">@null</item>
+        <item name="android:textColorLink">@color/holo_blue_light</item>
+    </style>
+
+</resources>

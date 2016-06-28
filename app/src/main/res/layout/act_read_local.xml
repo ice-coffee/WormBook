@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mbook="http://schemas.android.com/apk/res/com.jie.book.work"
+    android:id="@+id/layout_readborad_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.jie.book.work.read.ReadSlidingView
+        android:id="@+id/layout_readborad_root_sliding"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent" >
+
+        <include
+            android:id="@+id/layout_readborad_chapterlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            layout="@layout/view_read_chapter"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/readborad_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android:id="@+id/adParentLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/adLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/adLayout_shade"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/read_ad_shae"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/adParentLayout" >
+
+                <com.jie.book.work.local.LocalReadingBoard
+                    android:id="@+id/readingBoard"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+                <include
+                    android:id="@+id/layout_read_head"
+                    layout="@layout/view_read_main_head" />
+
+                <include
+                    android:id="@+id/layout_read_bottom"
+                    layout="@layout/view_read_main_bottom" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/bookmarkPrompt"
+                android:layout_width="240dp"
+                android:layout_height="84dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bookmark_prompt_bg"
+                android:gravity="center_vertical"
+                android:lines="3"
+                android:paddingLeft="16dip"
+                android:paddingRight="40dip"
+                android:textColor="#ffff"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </com.jie.book.work.read.ReadSlidingView>
+
+    <include
+        android:layout_alignParentBottom="true"
+        layout="@layout/view_read_local_menu" />
+
+    <RelativeLayout
+        android:id="@+id/guide_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/guide_transparent"
+        android:visibility="gone" >
+
+        <com.jie.book.work.view.LimitViewPager
+            android:id="@+id/guide_viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <com.jie.book.work.view.CirclePageIndicator
+            android:id="@+id/guide_indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            mbook:padding="8dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

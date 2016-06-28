@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_ef_black" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        style="@style/ActionBarLayout" >
+
+        <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+            <TextView
+                android:id="@+id/book_search_back"
+                style="@style/ActionBarIconText"
+                android:drawableLeft="@drawable/icon_read_menu_back"
+                android:drawablePadding="15dp"
+                android:text="搜索" />
+
+            <ImageButton
+                android:id="@+id/book_shlef"
+                style="@style/ActionBarIcon"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_read_menu_store" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/actionbar_layout"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/book_search_edit_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/color_ef_item_normal"
+            android:padding="5dp" >
+
+            <Button
+                android:id="@+id/book_search_go_btn"
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/selector_btn_book_search_ef"
+                android:gravity="center"
+                android:text="搜索"
+                android:textColor="@color/text_ef_light_gray"
+                android:textSize="14dp" />
+
+            <EditText
+                android:id="@+id/book_search_edit"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@id/book_search_go_btn"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/book_search_go_btn"
+                android:background="@drawable/bg_book_search_edit_ef"
+                android:cursorVisible="true"
+                android:hint="输入书名或作者名"
+                android:paddingLeft="45dp"
+                android:textColor="@color/text_ef_light_gray"
+                android:textCursorDrawable="@null"
+                android:textSize="14dp" />
+
+            <LinearLayout
+                android:id="@+id/book_search_source"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/book_search_edit"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:id="@+id/book_search_source_logo"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/icon_source_default" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="4dp"
+                    android:src="@drawable/icon_arrow_down" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/book_search_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/book_search_edit"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:background="@null"
+                android:src="@drawable/selector_book_search_del" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/book_search_com_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:visibility="visible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门搜索"
+                android:textColor="@color/text_ef_light_gray"
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <RelativeLayout style="@style/BookSearchItemLayout" >
+
+                    <Button
+                        android:id="@+id/book_search_com1"
+                        style="@style/BookSearchItemBtn"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/selector_book_search_item_ef"
+                        android:text="大主宰"
+                        android:textColor="@color/text_ef_gray" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/BookSearchItemLayout" >
+
+                    <Button
+                        android:id="@+id/book_search_com2"
+                        style="@style/BookSearchItemBtn"
+                        android:background="@drawable/selector_book_search_item_ef"
+                        android:text="校花的贴身高手"
+                        android:textColor="@color/text_ef_gray" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <RelativeLayout style="@style/BookSearchItemLayout" >
+
+                    <Button
+                        android:id="@+id/book_search_com3"
+                        style="@style/BookSearchItemBtn"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/selector_book_search_item_ef"
+                        android:text="英雄联盟之谁与争锋"
+                        android:textColor="@color/text_ef_gray" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/BookSearchItemLayout" >
+
+                    <Button
+                        android:id="@+id/book_search_com4"
+                        style="@style/BookSearchItemBtn"
+                        android:background="@drawable/selector_book_search_item_ef"
+                        android:text="绝世唐门"
+                        android:textColor="@color/text_ef_gray" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <RelativeLayout style="@style/BookSearchItemLayout" >
+
+                    <Button
+                        android:id="@+id/book_search_com5"
+                        style="@style/BookSearchItemBtn"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/selector_book_search_item_ef"
+                        android:text="一代天骄"
+                        android:textColor="@color/text_ef_gray" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/BookSearchItemLayout" >
+
+                    <Button
+                        android:id="@+id/book_search_com6"
+                        style="@style/BookSearchItemBtn"
+                        android:background="@drawable/selector_book_search_item_ef"
+                        android:text="凡人修仙传"
+                        android:textColor="@color/text_ef_gray" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp" >
+
+                <RelativeLayout style="@style/BookSearchItemLayout" >
+
+                    <Button
+                        android:id="@+id/book_search_com7"
+                        style="@style/BookSearchItemBtn"
+                        android:layout_alignParentLeft="true"
+                        android:background="@drawable/selector_book_search_item_ef"
+                        android:text="武动乾坤"
+                        android:textColor="@color/text_ef_gray" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/BookSearchItemLayout" >
+
+                    <Button
+                        android:id="@+id/book_search_com8"
+                        style="@style/BookSearchItemBtn"
+                        android:background="@drawable/selector_book_search_item_ef"
+                        android:text="我们是兄弟"
+                        android:textColor="@color/text_ef_gray" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.jie.book.work.view.pullrefresh.PullToRefreshButtomListView
+            android:id="@+id/book_search_result_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:listSelector="#00000000"
+            android:scrollbars="none"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/book_search_source_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/actionbar_layout"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/book_search_source_shade"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/middle_transparent" />
+
+        <LinearLayout
+            android:id="@+id/book_search_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/book_search_index"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/icon_change_source_index_ef" />
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@color/color_ef_item_pressed"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="切换你喜欢的搜索来源"
+                    android:textColor="@color/text_ef_light_gray"
+                    android:textSize="13dp" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/color_ef_divider" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="8dp" >
+
+                    <LinearLayout
+                        android:id="@+id/layout_source_normal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_dialog_source_ef"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_source_default" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="默认"
+                            android:textColor="@color/text_ef_light_gray"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_source_baidu"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_dialog_source_ef"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_source_baidu" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="百度"
+                            android:textColor="@color/text_ef_light_gray"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_source_sogou"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_dialog_source_ef"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_source_sogou" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="搜狗"
+                            android:textColor="@color/text_ef_light_gray"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layout_source_easou"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_dialog_source_ef"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical"
+                        android:paddingBottom="5dp" >
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/icon_source_easou" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="宜搜"
+                            android:textColor="@color/text_ef_light_gray"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/change_source_guide"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/actionbar_layout"
+        android:background="@drawable/bg_change_source_guid"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_ef_shae" />
+
+</RelativeLayout>

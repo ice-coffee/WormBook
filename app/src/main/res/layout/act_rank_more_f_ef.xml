@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_ef_black" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/actionbar_layout"
+            style="@style/ActionBarLayout" >
+
+            <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+                <TextView
+                    android:id="@+id/book_search_back"
+                    style="@style/ActionBarIconText"
+                    android:drawableLeft="@drawable/icon_read_menu_back"
+                    android:drawablePadding="15dp"
+                    android:text="更多榜单" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="132dp"
+                    android:src="@drawable/icon_rank_gril" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rank_more_f1"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:id="@+id/rank_more_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/icon_rank_jj"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="晋江月票榜"
+                android:textColor="@color/text_ef_light_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rank_more_f2"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:id="@+id/rank_more_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/icon_rank_qd"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="起点风云榜"
+                android:textColor="@color/text_ef_light_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rank_more_f3"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:id="@+id/rank_more_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/icon_rank_sqk"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="17K鲜花榜"
+                android:textColor="@color/text_ef_light_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rank_more_f4"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:id="@+id/rank_more_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/icon_rank_xs"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="小说阅读榜"
+                android:textColor="@color/text_ef_light_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rank_more_f5"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:id="@+id/rank_more_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/icon_rank_wj"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="经典完结榜"
+                android:textColor="@color/text_ef_light_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_ef_shae" />
+
+</RelativeLayout>

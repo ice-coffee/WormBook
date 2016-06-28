@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/book_shelf_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        style="@style/ActionBarLayout"
+        android:layout_marginBottom="15dp" >
+
+        <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+            <TextView
+                android:id="@+id/book_search_back"
+                style="@style/ActionBarIconText"
+                android:drawableLeft="@drawable/icon_read_menu_back"
+                android:drawablePadding="15dp"
+                android:text="书城广场" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/square_secret_lauout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" >
+
+        <RelativeLayout
+            android:id="@+id/square_random"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/icon_square_random"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:text="随机看书"
+                android:textColor="@color/text_black"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/icon_right_arrow" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentTop="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/square_app"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/icon_square_app"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="精品应用"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/icon_right_arrow" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/square_2048"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/icon_square_2048"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="2048小游戏"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/icon_right_arrow" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+</LinearLayout>

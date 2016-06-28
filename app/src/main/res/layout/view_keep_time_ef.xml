@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_ef_item_normal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/set_more_new"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp" >
+
+        <TextView
+            android:id="@+id/timer_stop_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text="选择养肥天数"
+            android:textColor="@color/action_bar_red"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/action_bar_red" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/timer_stop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/timer_stop_layout1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="养肥3天"
+                android:textColor="@color/text_ef_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/timer_stop_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/btn_typeface_choose"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/timer_stop_layout2"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="养肥5天"
+                android:textColor="@color/text_ef_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/timer_stop_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/btn_typeface_choose"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/timer_stop_layout3"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="养肥10天"
+                android:textColor="@color/text_ef_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/timer_stop_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/btn_typeface_choose"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/timer_stop_layout4"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="养肥20天"
+                android:textColor="@color/text_ef_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/timer_stop_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/btn_typeface_choose"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/timer_stop_layout5"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_book_shelf_item_ef" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:text="养肥30天"
+                android:textColor="@color/text_ef_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/timer_stop_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/btn_typeface_choose"
+                android:visibility="gone" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:background="@color/color_ef_divider" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

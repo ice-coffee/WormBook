@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="default_read_text_size">22sp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="default_circle_indicator_radius">4dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_circle_indicator_padding">5dp</dimen>
+
+    <integer name="default_circle_indicator_orientation">0</integer>
+
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+
+    <item name="gridview" type="id"/>
+    <item name="webview" type="id"/>
+    <item name="scrollview" type="id"/>
+
+    <dimen name="slide_show_text_size">16sp</dimen>
+    <dimen name="slide_show_text_padding">4dip</dimen>
+    <dimen name="slide_show_text_bg_margin_top">168dip</dimen>
+    <dimen name="reading_board_default_text_size">18sp</dimen>
+    <dimen name="reading_board_status_bar_height">36dip</dimen>
+    <dimen name="reading_board_canvas_padding_left">15dip</dimen>
+    <dimen name="reading_board_canvas_padding_top">25dip</dimen>
+    <dimen name="reading_board_canvas_padding_bottom">0dip</dimen>
+    <dimen name="reading_board_canvas_padding_bottom_ad">40dip</dimen>
+    <dimen name="reading_board_line_spacing">10dip</dimen>
+    <dimen name="reading_board_paragraph_spacing">16dip</dimen>
+    <dimen name="reading_board_page_shadow_width">12dip</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+
+</resources>

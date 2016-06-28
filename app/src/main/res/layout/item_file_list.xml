@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/book_file_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_book_shelf_item" >
+
+        <RelativeLayout
+            android:id="@+id/item_book_shelf_content"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/item_book_icon"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_txt" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:layout_toRightOf="@id/item_book_icon"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/item_book_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="暂无书名"
+                    android:textColor="@color/book_shelf_item_name"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/item_book_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:singleLine="true"
+                    android:text="100kb"
+                    android:textColor="@color/text_gray"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/item_book_path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:singleLine="true"
+                    android:text="/sdcard/"
+                    android:textColor="@color/text_gray"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/item_book_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:gravity="center"
+                android:src="@drawable/btn_typeface_unchoose" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/item_book_shelf_content"
+            android:layout_marginLeft="70dp"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+</RelativeLayout>

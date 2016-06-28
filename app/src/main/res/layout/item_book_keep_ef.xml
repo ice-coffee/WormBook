@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/book_keep_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_ef_item_normal" >
+
+        <RelativeLayout
+            android:id="@+id/item_book_shelf_content"
+            android:layout_width="fill_parent"
+            android:layout_height="85dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:id="@+id/item_book_icon"
+                android:layout_width="45dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/item_book_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/selector_btn_typeface_black"
+                android:gravity="center"
+                android:text="移回"
+                android:textColor="@color/typeface_gray"
+                android:textSize="13dp" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toLeftOf="@id/item_book_remove"
+                android:layout_toRightOf="@id/item_book_icon" >
+
+                <TextView
+                    android:id="@+id/item_book_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="暂无书名"
+                    android:textColor="@color/text_ef_light_gray"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/item_book_day"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_name"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="养肥了0天"
+                    android:textColor="@color/text_ef_gray"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/item_book_chapter_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_day"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@color/text_ef_gray"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/item_book_chapter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_day"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/item_book_chapter_time"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@color/text_ef_gray"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/item_book_shelf_content"
+            android:layout_marginLeft="70dp"
+            android:background="@color/color_ef_divider" />
+    </RelativeLayout>
+
+</RelativeLayout>

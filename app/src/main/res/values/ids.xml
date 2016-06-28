@@ -1,0 +1,10 @@
+<resources>
+
+    <item name="selected_view" type="id"/>
+    <item name="color_picker_view" type="id"/>
+    <item name="color_panel_old" type="id"/>
+    <item name="color_panel_new" type="id"/>
+    <item name="preference_preview_color_panel" type="id"/>
+    <item name="dialog_color_picker_extra_layout_landscape" type="id"/>
+
+</resources>

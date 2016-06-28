@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bookcatch-1.0-all">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/bookcatch-1.0-all.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

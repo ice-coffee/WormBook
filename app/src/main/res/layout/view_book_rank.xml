@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/book_shelf_bg"
+    android:orientation="vertical"
+    android:paddingBottom="20dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/book_shelf_item_bg"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_rank_index"
+            android:drawablePadding="5dp"
+            android:text="男生"
+            android:textColor="@color/text_black"
+            android:textSize="14dp" />
+
+        <RelativeLayout
+            android:id="@+id/rank_item1"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/item_book_rank_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_rank_search" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/item_book_rank_icon" >
+
+                <TextView
+                    android:id="@+id/item_book_rank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 热搜榜"
+                    android:textColor="@color/book_shelf_item_name"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/item_book_rank_rec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_rank_name"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="《莽荒纪》《傲世九重天》《绝世唐门》"
+                    android:textColor="@color/book_shelf_item_chapter"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/book_shelf_item_divider" />
+
+        <RelativeLayout
+            android:id="@+id/rank_item2"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/item_book_rank_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_rank_hot" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/item_book_rank_icon" >
+
+                <TextView
+                    android:id="@+id/item_book_rank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 畅销榜"
+                    android:textColor="@color/book_shelf_item_name"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_rank_name"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="《大主宰》《完美世界》《特种兵在都市》"
+                    android:textColor="@color/book_shelf_item_chapter"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/book_shelf_item_divider" />
+
+        <RelativeLayout
+            android:id="@+id/rank_item3"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/item_book_rank_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_rank_recommend" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/item_book_rank_icon" >
+
+                <TextView
+                    android:id="@+id/item_book_rank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 推荐榜"
+                    android:textColor="@color/book_shelf_item_name"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_rank_name"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="《大宋的智慧》《我欲封天》《武极天下》"
+                    android:textColor="@color/book_shelf_item_chapter"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/book_shelf_item_divider" />
+
+        <RelativeLayout
+            android:id="@+id/rank_item4"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/item_book_rank_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_rank_more" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/item_book_rank_icon" >
+
+                <TextView
+                    android:id="@+id/item_book_rank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 更多榜单"
+                    android:textColor="@color/book_shelf_item_name"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_rank_name"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="  起点 、百度、纵横、逐浪、17K、完结..."
+                    android:textColor="@color/book_shelf_item_chapter"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/book_shelf_item_bg"
+        android:orientation="vertical"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_rank_index"
+            android:drawablePadding="5dp"
+            android:text="女生"
+            android:textColor="@color/text_black"
+            android:textSize="14dp" />
+
+        <RelativeLayout
+            android:id="@+id/rank_item5"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/item_book_rank_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_rank_search" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/item_book_rank_icon" >
+
+                <TextView
+                    android:id="@+id/item_book_rank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 热搜榜"
+                    android:textColor="@color/book_shelf_item_name"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_rank_name"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="《至尊狂妻》《妖娆召唤师》《大婚晚成》"
+                    android:textColor="@color/book_shelf_item_chapter"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/book_shelf_item_divider" />
+
+        <RelativeLayout
+            android:id="@+id/rank_item6"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/item_book_rank_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_rank_hot" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/item_book_rank_icon" >
+
+                <TextView
+                    android:id="@+id/item_book_rank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 畅销榜"
+                    android:textColor="@color/book_shelf_item_name"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_rank_name"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="《良陈美锦》《盛世嫡妃 》《妙偶天成	》"
+                    android:textColor="@color/book_shelf_item_chapter"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/book_shelf_item_divider" />
+
+        <RelativeLayout
+            android:id="@+id/rank_item7"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/item_book_rank_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_rank_recommend" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/item_book_rank_icon" >
+
+                <TextView
+                    android:id="@+id/item_book_rank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 推荐榜"
+                    android:textColor="@color/book_shelf_item_name"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_rank_name"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="《清宫熹妃传》《纸上人》《嫡女重生记》"
+                    android:textColor="@color/book_shelf_item_chapter"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/book_shelf_item_divider" />
+
+        <RelativeLayout
+            android:id="@+id/rank_item8"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/selector_book_shelf_item"
+            android:padding="8dp" >
+
+            <ImageView
+                android:id="@+id/item_book_rank_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_rank_more" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/item_book_rank_icon" >
+
+                <TextView
+                    android:id="@+id/item_book_rank_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 更多榜单"
+                    android:textColor="@color/book_shelf_item_name"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/item_book_rank_name"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="  晋江 、起点、17K、小说阅读、完结..."
+                    android:textColor="@color/book_shelf_item_chapter"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

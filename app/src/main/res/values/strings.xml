@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">棒棒书城</string>
+    <string name="no_network"> 网络异常，请检查网络！</string>
+    <string name="header">2048</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_game">重新开始</string>
+    <string name="high_score">最高分数</string>
+    <string name="score">分数</string>
+    <string name="instructions">&#160;&#160;合并数字拼凑出2048即可胜利</string>
+    <string name="you_win">You Win!</string>
+    <string name="game_over">Game Over!</string>
+    <string name="go_on">点击继续</string>
+    <string name="for_now">开始&#8230;</string>
+    <string name="endless">无尽模式</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="easou_mads_SDK_2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/easou_mads_SDK_2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/book_shelf_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        style="@style/ActionBarLayout" >
+
+        <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+            <TextView
+                android:id="@+id/book_search_back"
+                style="@style/ActionBarIconText"
+                android:drawableLeft="@drawable/icon_read_menu_back"
+                android:drawablePadding="15dp"
+                android:text="免责申明" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:lineSpacingExtra="3dp"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="10dp"
+            android:text="    亲爱的用户朋友，在使用棒棒书城前，请务必仔细阅读和理解本声明，您可以选择不使用棒棒书城，但如果您使用棒棒书城，您的行为将被视为对本声明全本内容的认可。
+\n   棒棒书城是一款提供网络小说即时更新工具,为广大小说爱好者提供方便、快捷、舒适的试读体验，棒棒书城致力于最大程度减少读者在自行搜索过程中毫无意义的时间浪费，棒棒书城在提供优良的试读体验的同时，也使优秀的网络小说得以更快捷，更广泛的传播。为正版网络小说提供了一个良好的宣传途径 。
+\n   当用户使用搜索功能后，棒棒书城将会打开第三方搜索引擎（百度，宜搜等）帮用户提交指定书名并提供界面优化服务。第三方搜索引擎结果根据你提交的书名自动搜索链接到第三方网页上的内容和立场。您应该对使用搜索引擎的结果自行承担风险。棒棒书城不做任何形式的保证:不保证第三方搜索引擎的搜索结果满足您的要求，不保证搜索服务不中断，不保证搜索结果的安全性、正确性、及时性、合法性。第三方搜索引擎所返回的数据及结果与本应用无关，也不代表本应用赞同搜索引擎或搜索地址的立场，本应用对其概不负责，亦不承担任何法律责任。
+\n   棒棒书城鼓励广大小说爱好者通过棒棒书城发现优秀的网络小说及其提供商，并建议阅读正版图书。任何单位或者个人认为通过棒棒书城搜索链接到的第三方网页内容可能涉及侵权其网络传播权，应及时向棒棒书城提出书面权利通知，并提供身份证明、权属证明及详细侵权情况证明。棒棒书城在收到上述法律文件后，将会依法尽快断开相关链接内容。"
+            android:textColor="@color/text_light_black"
+            android:textSize="16dp" />
+    </ScrollView>
+
+</LinearLayout>

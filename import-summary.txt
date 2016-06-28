@@ -1,0 +1,785 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\MobCommons.xml
+* .idea\libraries\android_support_v4.xml
+* .idea\libraries\bdappunion_1_2_log_enabled.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\uiDesigner.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* LICENSE
+* WormBook.iml
+* out\
+* out\production\
+* out\production\WormBook\
+* out\production\WormBook\.define
+* out\production\WormBook\WormBook.apk
+* out\production\WormBook\cn\
+* out\production\WormBook\cn\sharesdk\
+* out\production\WormBook\cn\sharesdk\onekeyshare\
+* out\production\WormBook\cn\sharesdk\onekeyshare\CustomerLogo.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\EditPageFakeActivity$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\EditPageFakeActivity$ImageInfo.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\EditPageFakeActivity$ImageListResultsCallback.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\EditPageFakeActivity.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\FollowerListFakeActivity$FollowersResult.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\FollowerListFakeActivity$Following.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\FollowerListFakeActivity.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\OnekeyShare$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\OnekeyShare.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\OnekeyShareTheme.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\PicViewer.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\PlatformListFakeActivity$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\PlatformListFakeActivity$OnShareButtonClickListener.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\PlatformListFakeActivity.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\ReflectableShareContentCustomizeCallback.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\Shake2Share$OnShakeListener.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\Shake2Share.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\ShareContentCustomizeCallback.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\ShareCore.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\ThemeShareCallback.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage$1$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage$2.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage$3.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage$4.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage$5.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage$6.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage$7.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage$8.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\EditPage.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$FollowAdapter.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$FollowListItem.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$PRTHeader.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\FollowListPage$RotateImageView.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\FollowListPage.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\PlatformGridView$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\PlatformGridView$GridView.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\PlatformGridView$PlatformAdapter.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\PlatformGridView.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\PlatformListPage$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\PlatformListPage$2.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\classic\PlatformListPage.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\EditPage$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\EditPage$2.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\EditPage$3.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\EditPage$4.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\EditPage.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$FollowAdapter.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$FollowListItem.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$PRTHeader.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage$RotateImageView.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\FollowListPage.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\PlatformGridViewAdapter$ViewHolder.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\PlatformGridViewAdapter.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\PlatformListPage$1.class
+* out\production\WormBook\cn\sharesdk\onekeyshare\theme\skyblue\PlatformListPage.class
+* out\production\WormBook\com\
+* out\production\WormBook\com\jie\
+* out\production\WormBook\com\jie\book\
+* out\production\WormBook\com\jie\book\noverls\
+* out\production\WormBook\com\jie\book\noverls\utils\
+* out\production\WormBook\com\jie\book\noverls\utils\BondHelper.class
+* out\production\WormBook\com\jie\book\work\
+* out\production\WormBook\com\jie\book\work\BuildConfig.class
+* out\production\WormBook\com\jie\book\work\R$anim.class
+* out\production\WormBook\com\jie\book\work\R$attr.class
+* out\production\WormBook\com\jie\book\work\R$bool.class
+* out\production\WormBook\com\jie\book\work\R$color.class
+* out\production\WormBook\com\jie\book\work\R$dimen.class
+* out\production\WormBook\com\jie\book\work\R$drawable.class
+* out\production\WormBook\com\jie\book\work\R$id.class
+* out\production\WormBook\com\jie\book\work\R$integer.class
+* out\production\WormBook\com\jie\book\work\R$layout.class
+* out\production\WormBook\com\jie\book\work\R$raw.class
+* out\production\WormBook\com\jie\book\work\R$string.class
+* out\production\WormBook\com\jie\book\work\R$style.class
+* out\production\WormBook\com\jie\book\work\R$styleable.class
+* out\production\WormBook\com\jie\book\work\R.class
+* out\production\WormBook\com\jie\book\work\activity\
+* out\production\WormBook\com\jie\book\work\activity\BaseActivity.class
+* out\production\WormBook\com\jie\book\work\activity\BookDetailActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\BookDetailActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\BookDetailActivity$3.class
+* out\production\WormBook\com\jie\book\work\activity\BookDetailActivity.class
+* out\production\WormBook\com\jie\book\work\activity\BookKeepActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\BookKeepActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\BookKeepActivity$3.class
+* out\production\WormBook\com\jie\book\work\activity\BookKeepActivity$BookKeepAdapter$1.class
+* out\production\WormBook\com\jie\book\work\activity\BookKeepActivity$BookKeepAdapter.class
+* out\production\WormBook\com\jie\book\work\activity\BookKeepActivity$ViewHoldr.class
+* out\production\WormBook\com\jie\book\work\activity\BookKeepActivity.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$10.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$3.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$4.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$5.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$6.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$7.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$8$1.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$8$2.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$8.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$9.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity$MainFragmentAdapter.class
+* out\production\WormBook\com\jie\book\work\activity\BookMainActivity.class
+* out\production\WormBook\com\jie\book\work\activity\BookRankResultActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\BookRankResultActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\BookRankResultActivity$3.class
+* out\production\WormBook\com\jie\book\work\activity\BookRankResultActivity.class
+* out\production\WormBook\com\jie\book\work\activity\BookSearchActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\BookSearchActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\BookSearchActivity$3.class
+* out\production\WormBook\com\jie\book\work\activity\BookSearchActivity$4.class
+* out\production\WormBook\com\jie\book\work\activity\BookSearchActivity.class
+* out\production\WormBook\com\jie\book\work\activity\BookSubjectResultActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\BookSubjectResultActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\BookSubjectResultActivity.class
+* out\production\WormBook\com\jie\book\work\activity\BookTypeResultActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\BookTypeResultActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\BookTypeResultActivity$3.class
+* out\production\WormBook\com\jie\book\work\activity\BookTypeResultActivity.class
+* out\production\WormBook\com\jie\book\work\activity\ChapterListActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\ChapterListActivity$2$1.class
+* out\production\WormBook\com\jie\book\work\activity\ChapterListActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\ChapterListActivity$BookChapterListAdapter$1.class
+* out\production\WormBook\com\jie\book\work\activity\ChapterListActivity$BookChapterListAdapter.class
+* out\production\WormBook\com\jie\book\work\activity\ChapterListActivity$ViewHoldr.class
+* out\production\WormBook\com\jie\book\work\activity\ChapterListActivity.class
+* out\production\WormBook\com\jie\book\work\activity\CustomThemeActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\CustomThemeActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\CustomThemeActivity.class
+* out\production\WormBook\com\jie\book\work\activity\DisclaimerActivity.class
+* out\production\WormBook\com\jie\book\work\activity\KeepAddActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\KeepAddActivity$AddClick.class
+* out\production\WormBook\com\jie\book\work\activity\KeepAddActivity$BookKeepAdapter.class
+* out\production\WormBook\com\jie\book\work\activity\KeepAddActivity$ViewHoldr.class
+* out\production\WormBook\com\jie\book\work\activity\KeepAddActivity.class
+* out\production\WormBook\com\jie\book\work\activity\KeepGuideActivity.class
+* out\production\WormBook\com\jie\book\work\activity\LuanchActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\LuanchActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\LuanchActivity.class
+* out\production\WormBook\com\jie\book\work\activity\MyInfoActivity$1$1.class
+* out\production\WormBook\com\jie\book\work\activity\MyInfoActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\MyInfoActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\MyInfoActivity$3$1.class
+* out\production\WormBook\com\jie\book\work\activity\MyInfoActivity$3.class
+* out\production\WormBook\com\jie\book\work\activity\MyInfoActivity.class
+* out\production\WormBook\com\jie\book\work\activity\RandomReadActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\RandomReadActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\RandomReadActivity$RandomAdapter.class
+* out\production\WormBook\com\jie\book\work\activity\RandomReadActivity$ViewHolder.class
+* out\production\WormBook\com\jie\book\work\activity\RandomReadActivity.class
+* out\production\WormBook\com\jie\book\work\activity\RankMoreFActivity.class
+* out\production\WormBook\com\jie\book\work\activity\RankMoreMActivity.class
+* out\production\WormBook\com\jie\book\work\activity\ReadActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\ReadActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\ReadActivity$3.class
+* out\production\WormBook\com\jie\book\work\activity\ReadActivity$4$1.class
+* out\production\WormBook\com\jie\book\work\activity\ReadActivity$4.class
+* out\production\WormBook\com\jie\book\work\activity\ReadActivity$DownloadBroadcastReceiver.class
+* out\production\WormBook\com\jie\book\work\activity\ReadActivity$ReadingGestureListener.class
+* out\production\WormBook\com\jie\book\work\activity\ReadActivity.class
+* out\production\WormBook\com\jie\book\work\activity\ReadBaseActivity.class
+* out\production\WormBook\com\jie\book\work\activity\ReadRootActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\ReadRootActivity$BatteryLifeBroadcastReceiver.class
+* out\production\WormBook\com\jie\book\work\activity\ReadRootActivity$DragMode.class
+* out\production\WormBook\com\jie\book\work\activity\ReadRootActivity$GuidePageAdapter$1.class
+* out\production\WormBook\com\jie\book\work\activity\ReadRootActivity$GuidePageAdapter.class
+* out\production\WormBook\com\jie\book\work\activity\ReadRootActivity$SlidingMode.class
+* out\production\WormBook\com\jie\book\work\activity\ReadRootActivity.class
+* out\production\WormBook\com\jie\book\work\activity\RecAppActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\RecAppActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\RecAppActivity$ViewHolder.class
+* out\production\WormBook\com\jie\book\work\activity\RecAppActivity$recAppAdapter.class
+* out\production\WormBook\com\jie\book\work\activity\RecAppActivity.class
+* out\production\WormBook\com\jie\book\work\activity\SecretGuideActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\SecretGuideActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\SecretGuideActivity$TimeBroadcastReceiver.class
+* out\production\WormBook\com\jie\book\work\activity\SecretGuideActivity.class
+* out\production\WormBook\com\jie\book\work\activity\SetMoreActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\SetMoreActivity.class
+* out\production\WormBook\com\jie\book\work\activity\SetSystemActivity.class
+* out\production\WormBook\com\jie\book\work\activity\SquareActivity.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$2.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$3.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$4.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$5.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$TypefaceAdapter$1.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$TypefaceAdapter$2.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$TypefaceAdapter$3.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$TypefaceAdapter.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity$ViewHolder.class
+* out\production\WormBook\com\jie\book\work\activity\TypefaceActivity.class
+* out\production\WormBook\com\jie\book\work\activity\WebActivity$1.class
+* out\production\WormBook\com\jie\book\work\activity\WebActivity$strategyWebChromeClient.class
+* out\production\WormBook\com\jie\book\work\activity\WebActivity$strategyWebViewClient.class
+* out\production\WormBook\com\jie\book\work\activity\WebActivity.class
+* out\production\WormBook\com\jie\book\work\adapter\
+* out\production\WormBook\com\jie\book\work\adapter\BookDescAdapter$1.class
+* out\production\WormBook\com\jie\book\work\adapter\BookDescAdapter$ViewHoldr.class
+* out\production\WormBook\com\jie\book\work\adapter\BookDescAdapter.class
+* out\production\WormBook\com\jie\book\work\adapter\SearchResultAdapter$1.class
+* out\production\WormBook\com\jie\book\work\adapter\SearchResultAdapter$FunctionClick$1.class
+* out\production\WormBook\com\jie\book\work\adapter\SearchResultAdapter$FunctionClick.class
+* out\production\WormBook\com\jie\book\work\adapter\SearchResultAdapter$ViewHoldr.class
+* out\production\WormBook\com\jie\book\work\adapter\SearchResultAdapter.class
+* out\production\WormBook\com\jie\book\work\application\
+* out\production\WormBook\com\jie\book\work\application\BookActivityManager.class
+* out\production\WormBook\com\jie\book\work\application\BookApplication$1.class
+* out\production\WormBook\com\jie\book\work\application\BookApplication$Cookies.class
+* out\production\WormBook\com\jie\book\work\application\BookApplication.class
+* out\production\WormBook\com\jie\book\work\download\
+* out\production\WormBook\com\jie\book\work\download\AsyncHttpClient$1.class
+* out\production\WormBook\com\jie\book\work\download\AsyncHttpClient$2.class
+* out\production\WormBook\com\jie\book\work\download\AsyncHttpClient$InflatingEntity.class
+* out\production\WormBook\com\jie\book\work\download\AsyncHttpClient.class
+* out\production\WormBook\com\jie\book\work\download\AsyncHttpRequest.class
+* out\production\WormBook\com\jie\book\work\download\AsyncHttpResponseHandler$1.class
+* out\production\WormBook\com\jie\book\work\download\AsyncHttpResponseHandler.class
+* out\production\WormBook\com\jie\book\work\download\BinaryHttpResponseHandler.class
+* out\production\WormBook\com\jie\book\work\download\DownLoadCallback.class
+* out\production\WormBook\com\jie\book\work\download\DownLoadConfigUtil.class
+* out\production\WormBook\com\jie\book\work\download\DownloadManager$1.class
+* out\production\WormBook\com\jie\book\work\download\DownloadManager$handlerQueue.class
+* out\production\WormBook\com\jie\book\work\download\DownloadManager.class
+* out\production\WormBook\com\jie\book\work\download\FileAlreadyExistException.class
+* out\production\WormBook\com\jie\book\work\download\FileHttpResponseHandler$1.class
+* out\production\WormBook\com\jie\book\work\download\FileHttpResponseHandler$ProgressReportingRandomAccessFile.class
+* out\production\WormBook\com\jie\book\work\download\FileHttpResponseHandler.class
+* out\production\WormBook\com\jie\book\work\download\RequestParams$FileWrapper.class
+* out\production\WormBook\com\jie\book\work\download\RequestParams.class
+* out\production\WormBook\com\jie\book\work\download\RetryHandler.class
+* out\production\WormBook\com\jie\book\work\download\SimpleMultipartEntity.class
+* out\production\WormBook\com\jie\book\work\download\TAException.class
+* out\production\WormBook\com\jie\book\work\download\TAField.class
+* out\production\WormBook\com\jie\book\work\download\TAIConfig.class
+* out\production\WormBook\com\jie\book\work\download\TAPreferenceConfig.class
+* out\production\WormBook\com\jie\book\work\download\TAPropertiesConfig.class
+* out\production\WormBook\com\jie\book\work\download\TAReflectUtils.class
+* out\production\WormBook\com\jie\book\work\download\TAStringUtils$1.class
+* out\production\WormBook\com\jie\book\work\download\TAStringUtils$2.class
+* out\production\WormBook\com\jie\book\work\download\TAStringUtils.class
+* out\production\WormBook\com\jie\book\work\download\TATransparent.class
+* out\production\WormBook\com\jie\book\work\entity\
+* out\production\WormBook\com\jie\book\work\entity\App.class
+* out\production\WormBook\com\jie\book\work\entity\CustomSubject.class
+* out\production\WormBook\com\jie\book\work\entity\DownloadInfo.class
+* out\production\WormBook\com\jie\book\work\entity\FileInfo.class
+* out\production\WormBook\com\jie\book\work\entity\SubjectList.class
+* out\production\WormBook\com\jie\book\work\entity\TypefaceInfo.class
+* out\production\WormBook\com\jie\book\work\entity\UserInfo$Gender.class
+* out\production\WormBook\com\jie\book\work\entity\UserInfo.class
+* out\production\WormBook\com\jie\book\work\fragment\
+* out\production\WormBook\com\jie\book\work\fragment\BaseFragment.class
+* out\production\WormBook\com\jie\book\work\fragment\BookMainMenuFragment$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookMainMenuFragment.class
+* out\production\WormBook\com\jie\book\work\fragment\BookRankFragment.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$2$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$2.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$3$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$3.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$4.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$5.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$6.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$7.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$8.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$2.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$3$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$3.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$4.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$5$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$5.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$6.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$7$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1$7.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$2.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter$3.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$BookSelfAdapter.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$DownloadBroadcastReceiver.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment$ViewHoldr.class
+* out\production\WormBook\com\jie\book\work\fragment\BookShelfFragment.class
+* out\production\WormBook\com\jie\book\work\fragment\BookSubjectFragment$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookSubjectFragment$2.class
+* out\production\WormBook\com\jie\book\work\fragment\BookSubjectFragment$3.class
+* out\production\WormBook\com\jie\book\work\fragment\BookSubjectFragment$BookSubjectAdapter$1.class
+* out\production\WormBook\com\jie\book\work\fragment\BookSubjectFragment$BookSubjectAdapter.class
+* out\production\WormBook\com\jie\book\work\fragment\BookSubjectFragment$ViewHoldr.class
+* out\production\WormBook\com\jie\book\work\fragment\BookSubjectFragment.class
+* out\production\WormBook\com\jie\book\work\fragment\BookTypeFragment.class
+* out\production\WormBook\com\jie\book\work\game\
+* out\production\WormBook\com\jie\book\work\game\AnimationCell.class
+* out\production\WormBook\com\jie\book\work\game\AnimationGrid.class
+* out\production\WormBook\com\jie\book\work\game\Cell.class
+* out\production\WormBook\com\jie\book\work\game\Game2048Activity.class
+* out\production\WormBook\com\jie\book\work\game\Grid.class
+* out\production\WormBook\com\jie\book\work\game\InputListener.class
+* out\production\WormBook\com\jie\book\work\game\MainGame.class
+* out\production\WormBook\com\jie\book\work\game\MainView.class
+* out\production\WormBook\com\jie\book\work\game\Tile.class
+* out\production\WormBook\com\jie\book\work\local\
+* out\production\WormBook\com\jie\book\work\local\Encoding.class
+* out\production\WormBook\com\jie\book\work\local\LocalBookManager.class
+* out\production\WormBook\com\jie\book\work\local\LocalChapterSplitter$ExtractedCallback.class
+* out\production\WormBook\com\jie\book\work\local\LocalChapterSplitter.class
+* out\production\WormBook\com\jie\book\work\local\LocalDocument$1.class
+* out\production\WormBook\com\jie\book\work\local\LocalDocument$ByteMeta.class
+* out\production\WormBook\com\jie\book\work\local\LocalDocument.class
+* out\production\WormBook\com\jie\book\work\local\LocalFileListActivity$1.class
+* out\production\WormBook\com\jie\book\work\local\LocalFileListActivity$2.class
+* out\production\WormBook\com\jie\book\work\local\LocalFileListActivity$3.class
+* out\production\WormBook\com\jie\book\work\local\LocalFileListActivity$AddClick.class
+* out\production\WormBook\com\jie\book\work\local\LocalFileListActivity$FileAdapter.class
+* out\production\WormBook\com\jie\book\work\local\LocalFileListActivity$ViewHoldr.class
+* out\production\WormBook\com\jie\book\work\local\LocalFileListActivity.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadChapter$1.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadChapter$BookChapterListAdapter$1.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadChapter$BookChapterListAdapter$2.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadChapter$BookChapterListAdapter$3$1.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadChapter$BookChapterListAdapter$3.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadChapter$BookChapterListAdapter.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadChapter$ViewHoldrChapter.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadChapter$ViewHoldrMark.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadChapter.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadMenu$1.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadMenu$2.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadMenu$3.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadMenu$ReadMode.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadMenu.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadPanle.class
+* out\production\WormBook\com\jie\book\work\local\LocalReaderActivity$ReadingGestureListener.class
+* out\production\WormBook\com\jie\book\work\local\LocalReaderActivity.class
+* out\production\WormBook\com\jie\book\work\local\LocalReaderBaseActivity.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadingBoard$1.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadingBoard$2.class
+* out\production\WormBook\com\jie\book\work\local\LocalReadingBoard.class
+* out\production\WormBook\com\jie\book\work\local\LocalTxtDocument$1.class
+* out\production\WormBook\com\jie\book\work\local\LocalTxtDocument.class
+* out\production\WormBook\com\jie\book\work\local\Paths.class
+* out\production\WormBook\com\jie\book\work\read\
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$1.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$10.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$11.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$12.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$13.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$14.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$15.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$16.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$17.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$18.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$19.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$2.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$20.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$21.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$22.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$23.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$24.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$25.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$26.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$27.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$28.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$29.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$3.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$30.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$31.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$32.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$33.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$34.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$4.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$5.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$6.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$7.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$8.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$9.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$BookDescInterface.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$BookDescListInterface.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$BookSourceListInterface.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$CatalogListInterface.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$DefaultInterface.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$LongInterface.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$RangeInterface.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$SearchResultInterface.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager$SubjectListInterface.class
+* out\production\WormBook\com\jie\book\work\read\BookCatchManager.class
+* out\production\WormBook\com\jie\book\work\read\ChapterInterface.class
+* out\production\WormBook\com\jie\book\work\read\ChapterListenerAdapter.class
+* out\production\WormBook\com\jie\book\work\read\Document$1$1$1.class
+* out\production\WormBook\com\jie\book\work\read\Document$1$1.class
+* out\production\WormBook\com\jie\book\work\read\Document$1.class
+* out\production\WormBook\com\jie\book\work\read\Document$2$1$1.class
+* out\production\WormBook\com\jie\book\work\read\Document$2$1.class
+* out\production\WormBook\com\jie\book\work\read\Document$2.class
+* out\production\WormBook\com\jie\book\work\read\Document$3.class
+* out\production\WormBook\com\jie\book\work\read\Document$4$1.class
+* out\production\WormBook\com\jie\book\work\read\Document$4.class
+* out\production\WormBook\com\jie\book\work\read\Document$5.class
+* out\production\WormBook\com\jie\book\work\read\Document$6$1.class
+* out\production\WormBook\com\jie\book\work\read\Document$6.class
+* out\production\WormBook\com\jie\book\work\read\Document.class
+* out\production\WormBook\com\jie\book\work\read\LayoutUtil.class
+* out\production\WormBook\com\jie\book\work\read\MotionEventPointCollector.class
+* out\production\WormBook\com\jie\book\work\read\MultiTouchPointCollector.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter$1$1.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter$1.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter$BookChapterListAdapter$1.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter$BookChapterListAdapter$2.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter$BookChapterListAdapter$3$1.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter$BookChapterListAdapter$3.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter$BookChapterListAdapter.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter$ViewHoldrChapter.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter$ViewHoldrMark.class
+* out\production\WormBook\com\jie\book\work\read\ReadChapter.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$1.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$2.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$3.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$4.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$5$1.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$5.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$6.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$7.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$8.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$ReadMode.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$SourceListAdapter$1.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$SourceListAdapter.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu$ViewHolder.class
+* out\production\WormBook\com\jie\book\work\read\ReadMenu.class
+* out\production\WormBook\com\jie\book\work\read\ReadPanle$1.class
+* out\production\WormBook\com\jie\book\work\read\ReadPanle$2.class
+* out\production\WormBook\com\jie\book\work\read\ReadPanle.class
+* out\production\WormBook\com\jie\book\work\read\ReadSettings.class
+* out\production\WormBook\com\jie\book\work\read\ReadSlidingView$SlidingStopListener.class
+* out\production\WormBook\com\jie\book\work\read\ReadSlidingView.class
+* out\production\WormBook\com\jie\book\work\read\ReadTheme.class
+* out\production\WormBook\com\jie\book\work\read\ReadingBoard.class
+* out\production\WormBook\com\jie\book\work\read\RectObjectPool.class
+* out\production\WormBook\com\jie\book\work\service\
+* out\production\WormBook\com\jie\book\work\service\BookDownloadService$1.class
+* out\production\WormBook\com\jie\book\work\service\BookDownloadService$2.class
+* out\production\WormBook\com\jie\book\work\service\BookDownloadService.class
+* out\production\WormBook\com\jie\book\work\service\BootReceiver.class
+* out\production\WormBook\com\jie\book\work\service\DownloadService$1.class
+* out\production\WormBook\com\jie\book\work\service\DownloadService$2.class
+* out\production\WormBook\com\jie\book\work\service\DownloadService$DownLoadItem.class
+* out\production\WormBook\com\jie\book\work\service\DownloadService.class
+* out\production\WormBook\com\jie\book\work\service\RemindService$1.class
+* out\production\WormBook\com\jie\book\work\service\RemindService.class
+* out\production\WormBook\com\jie\book\work\service\TriggerReceiver.class
+* out\production\WormBook\com\jie\book\work\utils\
+* out\production\WormBook\com\jie\book\work\utils\AdUtil$1.class
+* out\production\WormBook\com\jie\book\work\utils\AdUtil$2.class
+* out\production\WormBook\com\jie\book\work\utils\AdUtil$3.class
+* out\production\WormBook\com\jie\book\work\utils\AdUtil$4.class
+* out\production\WormBook\com\jie\book\work\utils\AdUtil$5.class
+* out\production\WormBook\com\jie\book\work\utils\AdUtil$6.class
+* out\production\WormBook\com\jie\book\work\utils\AdUtil$7.class
+* out\production\WormBook\com\jie\book\work\utils\AdUtil.class
+* out\production\WormBook\com\jie\book\work\utils\BitmapUtil.class
+* out\production\WormBook\com\jie\book\work\utils\CharBufferUtil.class
+* out\production\WormBook\com\jie\book\work\utils\CharsetUtil.class
+* out\production\WormBook\com\jie\book\work\utils\Config.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil$1.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil$2.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil$3.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil$4.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil$5.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil$6.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil$7$1.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil$7.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil$8.class
+* out\production\WormBook\com\jie\book\work\utils\DownloadUtil.class
+* out\production\WormBook\com\jie\book\work\utils\FileUtil.class
+* out\production\WormBook\com\jie\book\work\utils\HttpDownloader$1$1.class
+* out\production\WormBook\com\jie\book\work\utils\HttpDownloader$1$2.class
+* out\production\WormBook\com\jie\book\work\utils\HttpDownloader$1.class
+* out\production\WormBook\com\jie\book\work\utils\HttpDownloader$httpDownloadCallBack.class
+* out\production\WormBook\com\jie\book\work\utils\HttpDownloader.class
+* out\production\WormBook\com\jie\book\work\utils\ImageLoadUtil$ImageType.class
+* out\production\WormBook\com\jie\book\work\utils\ImageLoadUtil.class
+* out\production\WormBook\com\jie\book\work\utils\LogUtil.class
+* out\production\WormBook\com\jie\book\work\utils\LoginUtil$1.class
+* out\production\WormBook\com\jie\book\work\utils\LoginUtil$2.class
+* out\production\WormBook\com\jie\book\work\utils\LoginUtil$3.class
+* out\production\WormBook\com\jie\book\work\utils\LoginUtil$4.class
+* out\production\WormBook\com\jie\book\work\utils\LoginUtil$5.class
+* out\production\WormBook\com\jie\book\work\utils\LoginUtil$onSignUpListener.class
+* out\production\WormBook\com\jie\book\work\utils\LoginUtil$onSyncListener.class
+* out\production\WormBook\com\jie\book\work\utils\LoginUtil.class
+* out\production\WormBook\com\jie\book\work\utils\MiscUtils$1.class
+* out\production\WormBook\com\jie\book\work\utils\MiscUtils.class
+* out\production\WormBook\com\jie\book\work\utils\PhoneUtil.class
+* out\production\WormBook\com\jie\book\work\utils\ShareUtil$1.class
+* out\production\WormBook\com\jie\book\work\utils\ShareUtil$2$1.class
+* out\production\WormBook\com\jie\book\work\utils\ShareUtil$2$2.class
+* out\production\WormBook\com\jie\book\work\utils\ShareUtil$2$3.class
+* out\production\WormBook\com\jie\book\work\utils\ShareUtil$2.class
+* out\production\WormBook\com\jie\book\work\utils\ShareUtil$ShareClick.class
+* out\production\WormBook\com\jie\book\work\utils\ShareUtil.class
+* out\production\WormBook\com\jie\book\work\utils\SharedPreferenceUtil.class
+* out\production\WormBook\com\jie\book\work\utils\StatisticUtil.class
+* out\production\WormBook\com\jie\book\work\utils\StringUtil$1.class
+* out\production\WormBook\com\jie\book\work\utils\StringUtil.class
+* out\production\WormBook\com\jie\book\work\utils\TaskExecutor.class
+* out\production\WormBook\com\jie\book\work\utils\TimeUtil.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$1.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$10.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$11.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$12.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$13.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$14$1.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$14.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$15.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$2.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$3.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$4.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$5.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$6.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$7.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$8.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$9.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$DelSetWifiCallBack.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper$OnDialogClickListener.class
+* out\production\WormBook\com\jie\book\work\utils\UIHelper.class
+* out\production\WormBook\com\jie\book\work\utils\UserSettings.class
+* out\production\WormBook\com\jie\book\work\view\
+* out\production\WormBook\com\jie\book\work\view\CirclePageIndicator$1.class
+* out\production\WormBook\com\jie\book\work\view\CirclePageIndicator$LastPageSlidingListener.class
+* out\production\WormBook\com\jie\book\work\view\CirclePageIndicator$SavedState$1.class
+* out\production\WormBook\com\jie\book\work\view\CirclePageIndicator$SavedState.class
+* out\production\WormBook\com\jie\book\work\view\CirclePageIndicator.class
+* out\production\WormBook\com\jie\book\work\view\EmptyPage$1.class
+* out\production\WormBook\com\jie\book\work\view\EmptyPage$2.class
+* out\production\WormBook\com\jie\book\work\view\EmptyPage$onReLoadListener.class
+* out\production\WormBook\com\jie\book\work\view\EmptyPage.class
+* out\production\WormBook\com\jie\book\work\view\HorizontalListView$1.class
+* out\production\WormBook\com\jie\book\work\view\HorizontalListView$2.class
+* out\production\WormBook\com\jie\book\work\view\HorizontalListView$3.class
+* out\production\WormBook\com\jie\book\work\view\HorizontalListView.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$1.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$2.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$Decor.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$ItemInfo.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$LayoutParams.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$OnAdapterChangeListener.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$OnPageChangeListener.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$PagerObserver.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$SavedState$1.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$SavedState.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager$SimpleOnPageChangeListener.class
+* out\production\WormBook\com\jie\book\work\view\LimitViewPager.class
+* out\production\WormBook\com\jie\book\work\view\PageIndicator.class
+* out\production\WormBook\com\jie\book\work\view\PopupHelper$1.class
+* out\production\WormBook\com\jie\book\work\view\PopupHelper$PopGravity.class
+* out\production\WormBook\com\jie\book\work\view\PopupHelper$PopStyle.class
+* out\production\WormBook\com\jie\book\work\view\PopupHelper.class
+* out\production\WormBook\com\jie\book\work\view\ProgressDialog.class
+* out\production\WormBook\com\jie\book\work\view\TabPageIndicator$1.class
+* out\production\WormBook\com\jie\book\work\view\TabPageIndicator$2.class
+* out\production\WormBook\com\jie\book\work\view\TabPageIndicator$OnTabReselectedListener.class
+* out\production\WormBook\com\jie\book\work\view\TabPageIndicator$TabView.class
+* out\production\WormBook\com\jie\book\work\view\TabPageIndicator.class
+* out\production\WormBook\com\jie\book\work\view\colorPicker\
+* out\production\WormBook\com\jie\book\work\view\colorPicker\AlphaPatternDrawable.class
+* out\production\WormBook\com\jie\book\work\view\colorPicker\ColorPanelView.class
+* out\production\WormBook\com\jie\book\work\view\colorPicker\ColorPickerDialog.class
+* out\production\WormBook\com\jie\book\work\view\colorPicker\ColorPickerView$1.class
+* out\production\WormBook\com\jie\book\work\view\colorPicker\ColorPickerView$BitmapCache.class
+* out\production\WormBook\com\jie\book\work\view\colorPicker\ColorPickerView$OnColorChangedListener.class
+* out\production\WormBook\com\jie\book\work\view\colorPicker\ColorPickerView.class
+* out\production\WormBook\com\jie\book\work\view\filpView\
+* out\production\WormBook\com\jie\book\work\view\filpView\FlipView$1.class
+* out\production\WormBook\com\jie\book\work\view\filpView\FlipView$2.class
+* out\production\WormBook\com\jie\book\work\view\filpView\FlipView$3.class
+* out\production\WormBook\com\jie\book\work\view\filpView\FlipView$4.class
+* out\production\WormBook\com\jie\book\work\view\filpView\FlipView$OnFlipListener.class
+* out\production\WormBook\com\jie\book\work\view\filpView\FlipView$OnOverFlipListener.class
+* out\production\WormBook\com\jie\book\work\view\filpView\FlipView$Page.class
+* out\production\WormBook\com\jie\book\work\view\filpView\FlipView.class
+* out\production\WormBook\com\jie\book\work\view\filpView\GlowOverFlipper.class
+* out\production\WormBook\com\jie\book\work\view\filpView\OverFlipMode.class
+* out\production\WormBook\com\jie\book\work\view\filpView\OverFlipper.class
+* out\production\WormBook\com\jie\book\work\view\filpView\OverFlipperFactory$1.class
+* out\production\WormBook\com\jie\book\work\view\filpView\OverFlipperFactory.class
+* out\production\WormBook\com\jie\book\work\view\filpView\Recycler$Scrap.class
+* out\production\WormBook\com\jie\book\work\view\filpView\Recycler.class
+* out\production\WormBook\com\jie\book\work\view\filpView\RubberBandOverFlipper.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\EmptyViewMethodAccessor.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\ILoadingLayout.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\IPullToRefresh.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\LoadingLayout$1.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\LoadingLayout.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\LoadingLayoutProxy.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\OverscrollHelper$1.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\OverscrollHelper.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshAdapterViewBase.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$1.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$2.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$3.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$4.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$AnimationStyle.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$Mode.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$OnLastItemVisibleListener.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$OnPullEventListener.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$OnRefreshListener.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$OnRefreshListener2.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$OnSmoothScrollFinishedListener.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$Orientation.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$SmoothScrollRunnable.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase$State.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshBase.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshButtomListView$1.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshButtomListView$onRefreshLoadListener.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshButtomListView.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshListView$1.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshListView$InternalListView.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshListView$InternalListViewSDK9.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshListView.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshScrollView$InternalScrollViewSDK9.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\PullToRefreshScrollView.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\RotateLoadingLayout.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\SoundPullEventListener.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\Utils.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\ViewCompat$SDK11.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\ViewCompat$SDK16.class
+* out\production\WormBook\com\jie\book\work\view\pullrefresh\ViewCompat.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CanvasTransformerBuilder$1.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CanvasTransformerBuilder$2.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CanvasTransformerBuilder$3.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CanvasTransformerBuilder$4.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CanvasTransformerBuilder$5.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CanvasTransformerBuilder$6.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CanvasTransformerBuilder.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CustomViewAbove$1.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CustomViewAbove$2.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CustomViewAbove$OnPageChangeListener.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CustomViewAbove$SimpleOnPageChangeListener.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CustomViewAbove.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\CustomViewBehind.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\MenuInterface.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingActivity.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingActivityBase.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingActivityHelper$1.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingActivityHelper.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingFragmentActivity.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingListActivity.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu$1.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu$2.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu$CanvasTransformer.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu$OnCloseListener.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu$OnClosedListener.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu$OnOpenListener.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu$OnOpenedListener.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu$SavedState$1.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu$SavedState.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingMenu.class
+* out\production\WormBook\com\jie\book\work\view\slidingMenu\SlidingPreferenceActivity.class
+* out\production\WormBook\com\jie\book\work\wxapi\
+* out\production\WormBook\com\jie\book\work\wxapi\WXEntryActivity.class
+* wormbook.apk
+* wormbook.keystore.jks
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\armeabi\libbase64encoder_v1_4.so => app\src\main\jniLibs\armeabi\libbase64encoder_v1_4.so
+* libs\armeabi\libMD5_v1.so => app\src\main\jniLibs\armeabi\libMD5_v1.so
+* libs\armeabi\libweibosdkcore.so => app\src\main\jniLibs\armeabi\libweibosdkcore.so
+* libs\bdappunion_1.2_log_enabled.jar => app\libs\bdappunion_1.2_log_enabled.jar
+* libs\bookcatch-1.0-all.jar => app\libs\bookcatch-1.0-all.jar
+* libs\easou_mads_SDK_2.3.3_release.jar => app\libs\easou_mads_SDK_2.3.3_release.jar
+* libs\easou_mads_SDK_2.jar => app\libs\easou_mads_SDK_2.jar
+* libs\easou_mads_SDK_4.jar => app\libs\easou_mads_SDK_4.jar
+* libs\http-request-5.6.jar => app\libs\http-request-5.6.jar
+* libs\jcc-bate-0.7.3.jar => app\libs\jcc-bate-0.7.3.jar
+* libs\MarsorUtils-1.0.0-SNAPSHOT.jar => app\libs\MarsorUtils-1.0.0-SNAPSHOT.jar
+* libs\mips\libweibosdkcore.so => app\src\main\jniLibs\mips\libweibosdkcore.so
+* libs\MobCommons.jar => app\libs\MobCommons.jar
+* libs\MobTools.jar => app\libs\MobTools.jar
+* libs\ObjectAnimation.jar => app\libs\ObjectAnimation.jar
+* libs\ShareSDK-Core-2.6.4.jar => app\libs\ShareSDK-Core-2.6.4.jar
+* libs\ShareSDK-QQ-2.6.4.jar => app\libs\ShareSDK-QQ-2.6.4.jar
+* libs\ShareSDK-QZone-2.6.4.jar => app\libs\ShareSDK-QZone-2.6.4.jar
+* libs\ShareSDK-SinaWeibo-2.6.4.jar => app\libs\ShareSDK-SinaWeibo-2.6.4.jar
+* libs\ShareSDK-Wechat-2.6.4.jar => app\libs\ShareSDK-Wechat-2.6.4.jar
+* libs\ShareSDK-Wechat-Core-2.6.4.jar => app\libs\ShareSDK-Wechat-Core-2.6.4.jar
+* libs\ShareSDK-Wechat-Moments-2.6.4.jar => app\libs\ShareSDK-Wechat-Moments-2.6.4.jar
+* libs\umeng-analytics-v5.2.4.jar => app\libs\umeng-analytics-v5.2.4.jar
+* libs\umeng-fb-v4.3.2.jar => app\libs\umeng-fb-v4.3.2.jar
+* libs\umeng-update-v2.4.2.jar => app\libs\umeng-update-v2.4.2.jar
+* libs\universal-image-loader-1.9.3.jar => app\libs\universal-image-loader-1.9.3.jar
+* libs\x86\libweibosdkcore.so => app\src\main\jniLibs\x86\libweibosdkcore.so
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\.define => app\src\main\resources\.define
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

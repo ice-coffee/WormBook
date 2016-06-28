@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/book_shlef_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/book_shelf_bg"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/bg_main_bar"
+            android:paddingBottom="10dp" >
+
+            <RelativeLayout
+                android:id="@+id/actionbar_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+                    <RelativeLayout
+                        android:id="@+id/book_shlef_menu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/selector_btn_actionbar"
+                        android:paddingLeft="10dp" >
+
+                        <ImageView
+                            android:id="@+id/book_shlef_menu_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/btn_bar_menu" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@id/book_shlef_menu_btn"
+                            android:background="@drawable/icon_app_name" />
+                    </RelativeLayout>
+
+                    <ImageButton
+                        android:id="@+id/book_shelf_more2"
+                        style="@style/ActionBarIcon"
+                        android:layout_alignParentRight="true"
+                        android:paddingLeft="11dp"
+                        android:paddingRight="11dp"
+                        android:src="@drawable/icon_bar_more" />
+
+                    <ImageButton
+                        android:id="@+id/book_shlef_search"
+                        style="@style/ActionBarIcon"
+                        android:layout_toLeftOf="@id/book_shelf_more2"
+                        android:paddingLeft="11dp"
+                        android:paddingRight="11dp"
+                        android:src="@drawable/btn_bar_shearch" />
+
+                    <ImageButton
+                        android:id="@+id/book_shlef_day_night"
+                        style="@style/ActionBarIcon"
+                        android:layout_toLeftOf="@id/book_shlef_search"
+                        android:paddingLeft="11dp"
+                        android:paddingRight="11dp"
+                        android:src="@drawable/btn_bar_night" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp" >
+
+                    <Button
+                        android:id="@+id/book_shelf_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/bg_tab_select"
+                        android:gravity="center"
+                        android:text="书架"
+                        android:textColor="@color/book_default_red"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp" >
+
+                    <Button
+                        android:id="@+id/book_rank_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:text="排行"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp" >
+
+                    <Button
+                        android:id="@+id/book_type_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@null"
+                        android:text="分类"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp" >
+
+                    <Button
+                        android:id="@+id/book_subject_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:text="专题"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <com.jie.book.work.view.LimitViewPager
+            android:id="@+id/ac_base_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/book_shlef_shae"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/color_ef_shae" />
+
+</RelativeLayout>

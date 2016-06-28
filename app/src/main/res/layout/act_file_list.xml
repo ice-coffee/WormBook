@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/book_shelf_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/actionbar_layout"
+        style="@style/ActionBarLayout" >
+
+        <RelativeLayout style="@style/ActionBarLayout_inner" >
+
+            <TextView
+                android:id="@+id/file_list_back"
+                style="@style/ActionBarIconText"
+                android:drawableLeft="@drawable/icon_read_menu_back"
+                android:drawablePadding="15dp"
+                android:text="本地书籍" />
+
+            <TextView
+                android:id="@+id/file_list_all"
+                style="@style/ActionBarIconText"
+                android:layout_alignParentRight="true"
+                android:drawablePadding="15dp"
+                android:text="全选" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/file_list_search"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/actionbar_layout" >
+
+        <TextView
+            android:id="@+id/file_list_search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="正在扫描TXT文件，请耐心等待"
+            android:textColor="@color/text_light_gray"
+            android:textSize="14dp" />
+
+        <ProgressBar
+            android:id="@+id/file_list_search_pb"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/file_list_search_text" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/book_shelf_item_divider" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/file_list_sure"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/selector_btn_red"
+        android:gravity="center"
+        android:text="导入书架"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <ListView
+        android:id="@+id/pull_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/file_list_sure"
+        android:layout_below="@id/file_list_search"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:fastScrollEnabled="true"
+        android:listSelector="#00000000" />
+
+</RelativeLayout>

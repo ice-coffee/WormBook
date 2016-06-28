@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.jie.book.work"
+        minSdkVersion 11
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:19.1.0'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/bdappunion_1.2_log_enabled.jar')
+    compile files('libs/bookcatch-1.0-all.jar')
+    compile files('libs/easou_mads_SDK_2.3.3_release.jar')
+    compile files('libs/easou_mads_SDK_2.jar')
+    compile files('libs/easou_mads_SDK_4.jar')
+    compile files('libs/http-request-5.6.jar')
+    compile files('libs/jcc-bate-0.7.3.jar')
+    compile files('libs/MarsorUtils-1.0.0-SNAPSHOT.jar')
+    compile files('libs/MobCommons.jar')
+    compile files('libs/MobTools.jar')
+    compile files('libs/ObjectAnimation.jar')
+    compile files('libs/ShareSDK-Core-2.6.4.jar')
+    compile files('libs/ShareSDK-QQ-2.6.4.jar')
+    compile files('libs/ShareSDK-QZone-2.6.4.jar')
+    compile files('libs/ShareSDK-SinaWeibo-2.6.4.jar')
+    compile files('libs/ShareSDK-Wechat-2.6.4.jar')
+    compile files('libs/ShareSDK-Wechat-Core-2.6.4.jar')
+    compile files('libs/ShareSDK-Wechat-Moments-2.6.4.jar')
+    compile files('libs/umeng-analytics-v5.2.4.jar')
+    compile files('libs/umeng-fb-v4.3.2.jar')
+    compile files('libs/umeng-update-v2.4.2.jar')
+    compile files('libs/universal-image-loader-1.9.3.jar')
+}

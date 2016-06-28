@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_book_shelf_item"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:paddingBottom="2dp"
+        android:paddingRight="15dp"
+        android:paddingTop="2dp" >
+
+        <ImageView
+            android:id="@+id/item_chapter_list_index"
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:background="@color/book_default_red" />
+
+        <ImageView
+            android:id="@+id/item_chapter_list_ruond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/icon_book_chapter_now" />
+
+        <ImageView
+            android:id="@+id/item_chapter_list_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/icon_book_chapter_light_arrow" />
+
+        <TextView
+            android:id="@+id/item_chapter_list_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/item_chapter_list_ruond"
+            android:text="1."
+            android:textColor="@color/book_default_red"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/item_chapter_list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/item_chapter_list_num"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/book_default_red"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+</RelativeLayout>
